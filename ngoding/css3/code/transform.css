@@ -1,0 +1,18 @@
+/*tranform
+ scale(angka) untuk memperbesar memperkecil box
+ rotate(deg) untuk memutar box
+ skew (deg) untuk membuat box menjadi miring
+ transletion (px) untuk membuat box bergerak ke kanan maupun ke kiri  
+ 
+*/
+
+.trans{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	margin: 150px auto;
+	transition: 1s;
+}
+.trans:hover{
+	transform: translate(-100px,-200px);
+}

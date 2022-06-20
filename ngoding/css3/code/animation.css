@@ -1,0 +1,60 @@
+/*
+ animation 
+ harus ada @keyframes nama {
+	from bisa %
+
+	to bisa %
+ }
+ property animation
+ {[nama],[duration].[timing-function],[delay],[iteration-count],[direction],[fill-mode],[play-state]}
+
+ 1.nama dari keyframes nya apa 
+ 2.duration durasi mau berapa
+ 3.timing-function liat ada di transform
+ 4.mao delay berapa liat ada di tranform
+ 5.iteration-count 
+ a.<angka> tulis aaja angkanya berapa nanti akan di ulang sesuai jumlah angkanya
+ b.infinite pengulangan tanpa berhenti
+ 6.direction
+ a. normal seperti biasa
+ b.reverse animasi akan dilaukan dari akhir
+ c.alternate dia akan berganti ganti dari awal ke akhir dari akhir ke awal
+ d.alternate-reverse dia akan berganti fanti tetapi di berawal dari akhir
+ 6.fill mode
+ a.none sama
+ b.forwards dia akan berhenti di keadaan akhir
+ 7.play-state
+ a.running
+ b.paused dia akan berhenti                                                                              
+
+*/
+
+
+
+
+
+.kotak{
+	height: 150px;
+	width: 150px;
+	background-color: black;
+}
+.kotak:hover{
+	animation: animas 1s ease infinite alternate;
+
+}
+
+@keyframes animas{
+    0%{
+    	width: 300px;
+    
+    }
+    50%{
+    	height: 300px;
+    	background-color: red ;
+    	border-radius: 50%;
+    }
+    100%{
+    	background-color: blue;
+    }
+
+}

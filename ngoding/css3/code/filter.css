@@ -1,0 +1,18 @@
+div{
+	width: 500px;
+	height: 500px;
+	font-family: arial;
+    text-shadow: 0px 10px 3px black;
+	font-size: 100px;
+	color: white;
+}
+/*blur
+brightness
+contrast
+saturate
+grayscale
+sepia
+hue-rotate
+invert
+opacity
+drop-shadow*/

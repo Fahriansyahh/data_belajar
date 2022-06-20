@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ubah warna</title>
+	<style>
+		html, body{
+			height: 100%;
+		}
+
+	   body{
+	   	 text-align: center;
+	   	 
+	   }
+	   .kotak{
+	   	   width: 20px;
+	   	   height: 20px;
+	   	   margin:10px auto;
+	   }
+	   .blue{background-color: blue;}
+	   .green{background-color: green;}
+	   .merah{background-color: red;}
+	   input{margin: 10px auto;}	
+	   h1{font-size: 60px;}
+	</style>
+</head>
+<body>
+	<h1>warna & warni</h1>
+	<button type="button" id="tmblUbah">Ubah tombol</button>
+	<br><br>
+<div class="kotak merah">
+	<h3>R</h3>
+</div>
+   	<input type="range" name="imerah">
+    
+<div class="kotak green">
+	<h3>G</h3>
+</div>
+   	<input type="range" name="igreen">
+
+<div class="kotak blue">
+	<h3>B</h3>
+</div>
+   	<input type="range" name="iblue">
+
+   	<div></div>
+   	<input class="olor" type="color">
+   		
+
+
+   <script src="latihan1.js">
+   	document.getElementsByClassName(".olor")[0].onchange=function(){
+  document.getElementsByTagName("body")[0].style.backgroundColor=this.value;
+}
+   </script>
+</body>
+</html>

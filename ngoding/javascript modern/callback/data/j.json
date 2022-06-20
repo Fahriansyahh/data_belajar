@@ -1,0 +1,23 @@
+[
+    {
+        "nama": "fahri",
+        "kota": "jakarta",
+        "kp": "pondok jaya",
+        "jl": "masjid nurul fajri",
+        "id": 2
+    },
+    {
+        "nama": "iyan",
+        "kota": "tangerang",
+        "kp": "pladen",
+        "jl": "jl unta raya",
+        "id": 3
+    },
+    {
+        "nama": "rian",
+        "kota": "tangsel",
+        "kp": "english",
+        "jl": "paris",
+        "id": 4
+    }
+]
